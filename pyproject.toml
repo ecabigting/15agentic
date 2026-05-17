@@ -28,6 +28,7 @@ dev = [
 [tool.pyright]
 venvPath = "."
 venv = ".venv"
+extraPaths = ["src"]
 
 [build-system]
 requires = ["hatchling"]
